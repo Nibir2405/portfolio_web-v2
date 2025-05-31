@@ -1,0 +1,209 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navid Ul Islam</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+     <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Portfolio</h2>
+        </div>
+        <div class="right-nav">
+            <a href="#home" class="t-white roboto">Home <i class="fa-solid fa-house"></i></a>
+            <a href="#about" class="t-white roboto">About Me <i class="fa-solid fa-user"></i></a>
+            <a href="#skills" class="t-white roboto">Skills <i class="fa-solid fa-code"></i></a>
+            <a href="#projects" class="t-white roboto">Projects <i class="fa-solid fa-project-diagram"></i></a>
+            <a href="#contact" class="t-white roboto">Contact Me <i class="fa-solid fa-rocket"></i></a>
+        </div>
+     </nav>
+
+     <!-- Home Section --> 
+    <section id="home">
+    <div class="home-left">
+        <div class="home-content">
+            <h6 class="popinss">Hi, I'm</h6>
+            <h1 class="t-white">Navid Ul Islam,</h1>
+            <h4 class="popinss">Python Programmer</h4>
+            <a href="{% static 'pdf/resume.pdf' %}" target="_blank">
+                <button class="btn popinss">Resume</button>
+            </a>
+            <a class="btn live popinss" id="hireme" href="https://www.linkedin.com/in/navid-ul-islam/" target="_blank">Let's Talk</a>
+        </div>
+    </div>
+    <div class="home-right">
+        <div class="circle" id="MainImage">
+            <img src="{% static 'images/mypic.jpg' %}" alt="My Picture">
+        </div>
+    </div>
+    </section>
+
+    <!-- About Section -->
+     <section id="about">
+  <div class="about-container">
+    <div class="about-right">
+      <h2>About Me</h2>
+      <p>👨‍💻 Aspiring Python Developer & Web Enthusiast | Skilled in HTML, CSS, JS, Mysql & Python | Udemy & DeepSeek, Grok | Passionate about solving problems & building impactful projects!</p>
+    </div>
+    <div class="about-left">
+      <img src="{% static 'Images/home1.png' %}" alt="About Image">
+    </div>
+  </div>
+</section>
+
+     <!-- Skills Section -->
+      <section id="skills">
+  <h1 class="t-center my-2 t-white f-2">Skills</h1>
+  <p class="t-center t-white" style="margin-bottom:1.5rem;">
+    Here are some of the technologies and languages I work with. These skills help me build modern, efficient, and creative solutions.
+  </p>
+  <div class="skills-container">
+    <div class="skill-card">
+      <div class="skill-label">HTML</div>
+      <div class="skill-bar-bg">
+        <div class="skill-bar skill-html"></div>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-label">CSS</div>
+      <div class="skill-bar-bg">
+        <div class="skill-bar skill-css"></div>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-label">Python</div>
+      <div class="skill-bar-bg">
+        <div class="skill-bar skill-python"></div>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-label">Mysql</div>
+      <div class="skill-bar-bg">
+        <div class="skill-bar skill-mysql"></div>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-label">Javascript</div>
+      <div class="skill-bar-bg">
+        <div class="skill-bar skill-javascript"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Project Section -->
+       <section id="projects">
+  <h1 class="t-center my-2 t-white f-2">Projects</h1>
+  <p class="t-center t-white" style="margin-bottom:1.5rem;">
+    Explore some of my featured projects below. Each project demonstrates my ability to solve real-world problems using code and technology.
+  </p>
+  <div class="projects-container">
+    <div class="project-card">
+      <h1>Blood Donor Managment System</h1>
+      <p>A Python-based application for efficiently managing blood donor information</p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/Blood_donar_managment_system.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h1>Webcam Movement Detection</h1>
+      <p>This project captures video from a webcam, detects movement and sends an email with an image attachment when movement is detected.</p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/email_webcam_detection.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h1>Hotel Booking CLI</h1>
+      <p>This project contains a Python-based application designed to manage hotel bookings efficiently.
+         It provides features to add, manage, and retrieve booking details, making it suitable for small to medium-sized hotels.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/Hotel_booking.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h1>News API Emailer</h1>
+      <p>This Python project fetches the latest news articles about a specific topic using the NewsAPI 
+         and sends a summary of the top articles to a specified email address.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/news_api_email.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h1>Chatbot Gpt</h1>
+      <p>A simple Python chatbot using Google Gemini API</p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/Chatbot_gpt.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h1>Restaurant Menu Django Project</h1>
+      <p>This is a Django-based web application for managing and displaying a restaurant's menu.
+        It allows users to view menu items categorized by meal type, see details for each item, 
+        and provides an admin interface for managing menu items.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Nibir2405/Chatbot_gpt.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+       <!-- Contact Me section -->
+        <section id="contact" class="m-b-1">
+            <h1 class="t-center my-2 t-white f-2">Contact Me</h1>
+            <div class="Contact-container flex s-around items-center">
+                <div class="form" id="contactform">
+                    <form method="post">
+                        {% csrf_token %}
+                        <div class="name form-div">
+                            <input type="text" name="name" id="name" class="popinss", placeholder="Enter Your Name" required>
+                        </div>
+
+                        <div class="email form-div">
+                            <input type="email" name="email" id="email" class="popinss", placeholder="Enter Your Email Address" required>
+                        </div>
+
+                        <div class="phone form-div">
+                            <input type="text" name="phone" id="phone" class="popinss", placeholder="Enter Your Phone Number" required>
+                        </div>
+
+                        <div class="textarea form-div">
+                            <textarea  name="content" id="content"  cols="30" rows="10" class="popinss", placeholder="Enter Your Message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn popinss">Send</button>
+
+                        {% if messages %}
+                            <div class="alert alert-success">
+                                {% for message in messages %}
+                                    {{ message }}
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+        </section>c
+
+        <!-- Footer Section -->
+         <footer id="footer">
+    <ul class="font-awesome">
+        <li><a href="https://github.com/Nibir2405" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="www.linkedin.com/in/navid-ul-islam" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://x.com/Navid_21602" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/navid.ul.islam.34155" target="_blank"><i class="fab fa-facebook"></i></a></li>
+    </ul>
+    <p>&copy; 2025 NAVID UL ISLAM. All rights reserved.</p>
+</footer>
+</body>
+</html>
