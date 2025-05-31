@@ -94,7 +94,6 @@ This project is for personal and educational use. You may modify and use it as a
 
 
 
-**Author:** Navid Ul Islam---
+**Author:** 
 ---
-
-**Author:** Navid Ul Islam
+Navid Ul Islam
